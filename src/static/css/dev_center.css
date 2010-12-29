@@ -210,6 +210,11 @@ h5, h6 {
   font-weight: normal
 }
 
+.right .subscribe img {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
 /* JQuery tweet styles*/
 
 .right div div.tweet {

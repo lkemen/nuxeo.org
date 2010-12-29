@@ -121,15 +121,30 @@
 
     {% if is_newbie %}
     <div class="kick start">
-      <h3>New to nuxeo ?</h3>
+      <h3>New to Nuxeo ?</h3>
 
       <div class="list">
         <p>Take a look at the <a
-                href="http://doc.nuxeo.com/dashboard.action">Documentation
+                href="http://doc.nuxeo.com/">Documentation
           Center</a>, to read before you install Nuxeo products.</p>
       </div>
     </div>
     {% endif %}
+
+    <div class="subscribe">
+      <h3>Stay Updated</h3>
+
+      <div class="list">
+        <p>
+          <img src="http://nuxeo.typepad.com/img/feed.png" alt=""/><a href="/rss">Subscribe to Feed</a>
+        </p>
+
+        <!--p>
+          <img src="http://nuxeo.typepad.com/img/twitter.png" alt=""/><a href="http://twitter.com/nuxeoorg/">Follow us
+          on Twitter</a>
+        </p-->
+      </div>
+    </div>
 
     <div class="documentation">
       <h3>Learn</h3>
