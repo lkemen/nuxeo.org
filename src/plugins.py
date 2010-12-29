@@ -144,8 +144,8 @@ class Documentation(Feed):
         "&types=page&types=comment&types=blogpost&types=mail&types=attachment" + \
         "&maxResults=15&publicFeed=true"
 
+#
 
-# TODO
 class JiraEvent(Event):
     type = "jira"
 
