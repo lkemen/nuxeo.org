@@ -1,0 +1,26 @@
+Roadmap
+=======
+
+V. 0.1
+------
+
+Focus: implement functions defined by the graphical template.
+
+- Define plugin API
+- Storage
+- Crawler
+- Presenter
+
+V. 0.2
+------
+
+Focus: add a few goodies.
+
+- "New since last visit"
+- Archives
+- User activities
+
+V. 0.3
+------
+
+- Search
