@@ -22,7 +22,7 @@
         username: ["sfermigier", "ebarroca", "nuxeo", "cherylmckinnon", "ogrisel", "efge"],
         join_text: "auto",
         avatar_size: 32,
-        count: 10,
+        count: 6,
         loading_text: "loading tweets..."
       });
     });
@@ -146,8 +146,41 @@
       </div>
     </div>
 
+    <div class="downloads">
+      <h3>Download Nuxeo Software</h3>
+      <div class="list">
+        <ul>
+          <li>
+            <a href="http://www.nuxeo.com/en/downloads/download-dm-form">nuxeo
+              <span class="dm"> • </span> DM</a> - Document
+            Management
+          </li>
+          <li>
+            <a href="http://www.nuxeo.com/en/downloads/download-dam-form">nuxeo
+              <span class="dam"> • </span>DAM</a> - Digital Asset
+            Management
+          </li>
+          <li>
+            <a href="http://www.nuxeo.com/en/downloads/download-cmf-form">nuxeo
+              <span class="cmf"> • </span>CMF</a> - Case
+            Management Framework
+          </li>
+          <li>
+            Explore the <a href="https://connect.nuxeo.com/nuxeo/site/marketplace/">nuxeo<span
+                  class="marketplace"> • </span><span>Market</span>place</a>
+            to discover additional packages (add-ons, extentions, business templates)
+            to extend your Nuxeo platform or application!
+          </li>
+          <li>
+            Or learn how to <a href="https://doc.nuxeo.com/display/KB/Configuring+Nuxeo+Debian+or+Ubuntu+repositories">install Nuxeo DM on Debian/Ubuntu</a>,
+            <!--or how to build the platform <a href="">from the sources</a> -->
+          </li>
+        </ul>
+      </div>
+    </div>
+
     <div class="documentation">
-      <h3>Learn</h3>
+      <h3>Discover and Learn</h3>
 
       <div class="list">
         <ul>
@@ -171,34 +204,32 @@
       </div>
     </div>
 
-    <div class="downloads">
-      <h3>Download</h3>
+    <div class="community">
+      <h3>Get Involved</h3>
+
       <div class="list">
         <ul>
           <li>
-            <a href="http://www.nuxeo.com/en/downloads/download-dm-form">nuxeo
-              <span class="dm"> • </span> DM</a> - Document
-            Management
+            Join the <a href="http://lists.nuxeo.com/mailman/listinfo/ecm">Nuxeo users</a> mailing list or the <a
+                  href="http://forum.nuxeo.org/">Forum</a>
           </li>
           <li>
-            <a href="http://www.nuxeo.com/en/downloads/download-dam-form">nuxeo
-              <span class="dam"> • </span>DAM</a> - Digital Asset
-            Management
+            Look at the outstanding issues and tasks in the <a href="http://jira.nuxeo.org/">Jira issue tracker</a> and
+            contribute to the <a href="https://jira.nuxeo.org/browse/NXP?report=com.atlassian.jira.plugin.system.project:roadmap-panel">roadmap</a>.
           </li>
           <li>
-            <a href="http://www.nuxeo.com/en/downloads/download-cmf-form">nuxeo
-              <span class="cmf"> • </span>CMF</a> - Case
-            Management Framework
+            Check out the <a href="https://doc.nuxeo.com/display/CORG/Getting+the+Nuxeo+source+code">Source
+            Code</a>
           </li>
           <li>
-            Or learn how to <a href="https://doc.nuxeo.com/display/KB/Configuring+Nuxeo+Debian+or+Ubuntu+repositories">install Nuxeo DM on Debian/Ubuntu</a>,
-            or how to build the platform <a href="">from the sources</a>.
+            Learn <a href="https://doc.nuxeo.com/display/NXDOC/Nuxeo+contributors+welcome+page">how to become a
+            Nuxeo contributor</a>
           </li>
         </ul>
       </div>
     </div>
 
-    <div class="marketplace">
+    <!--div class="marketplace">
       <h3>Add-ons, extensions and business templates</h3>
 
       <div class="list">
@@ -207,7 +238,8 @@
                 class="marketplace"> • </span><span>Market</span>place</a>
           to discover additional packages to extend your Nuxeo platform or application!</p>
       </div>
-    </div>
+    </div-->
+
     <div class="tweets">
       <h3>Latest Tweets from the Team</h3>
 

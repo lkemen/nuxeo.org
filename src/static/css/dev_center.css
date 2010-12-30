@@ -173,6 +173,11 @@ h5, h6 {
   padding: 2px 0 2px 20px;
 }
 
+.right .community ul li {
+  background: url("/media/icons/bullet_wrench.png") 0 3px no-repeat;
+  padding: 2px 0 2px 20px;
+}
+
 .right .downloads ul li {
   background: url("/media/icons/bullet_disk.png") 0 3px no-repeat;
   padding: 2px 0 2px 20px;
