@@ -12,14 +12,14 @@
   <link rel="stylesheet" href="/media/css/dev_center.css" type="text/css"
         media="screen">
 
-  <!-- tweet -->
+  <!-- tweet : comes from https://github.com/seaofclouds/tweet/ -->
   <script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"
           type="text/javascript"></script>
   <script language="javascript" src="/media/tweet/jquery.tweet.js" type="text/javascript"></script>
   <script type="text/javascript">
     $(document).ready(function() {
       $(".tweet").tweet({
-        username: ["sfermigier", "ebarroca", "nuxeo", "cherylmckinnon", "ogrisel", "efge"],
+        username: ["sfermigier", "ebarroca", "ogrisel", "efge", "janezupan", "nuxeo", "nuxeodam"],
         join_text: "auto",
         avatar_size: 32,
         count: 6,
@@ -168,7 +168,7 @@
           <li>
             Explore the <a href="https://connect.nuxeo.com/nuxeo/site/marketplace/">nuxeo<span
                   class="marketplace"> • </span><span>Market</span>place</a>
-            to discover additional packages (add-ons, extentions, business templates)
+            to discover additional packages (add-ons, extensions, business templates)
             to extend your Nuxeo platform or application!
           </li>
           <li>
