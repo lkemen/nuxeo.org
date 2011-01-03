@@ -106,11 +106,8 @@
             <p><a href="{{ event.url }}">{{ event.title }}</a></p>
           </div>
           <!--div class="share">
-            <a class="link" href="home.tpl#"><img src="/media/icons/email.png" alt="Email it"/></a>
-            <a class="link" href="home.tpl#"><img src="/media/icons/link.png" alt="Link it"/></a>
-            <a class="link" href="home.tpl#"><img src="/media/icons/twitter.png" alt="Twitt it"/></a>
-            <a class="link" href="home.tpl#"><img src="/media/icons/facebook.png" alt="Facebook it"/></a>
           </div-->
+          <div class="clear"></div>
         </div>
         {% endfor %}
       </div>
@@ -135,14 +132,15 @@
       <h3>Stay Updated</h3>
 
       <div class="list">
-        <p>
-          <img src="http://nuxeo.typepad.com/img/feed.png" alt=""/><a href="/rss">Subscribe to Feed</a>
-        </p>
-
-        <!--p>
-          <img src="http://nuxeo.typepad.com/img/twitter.png" alt=""/><a href="http://twitter.com/nuxeoorg/">Follow us
-          on Twitter</a>
-        </p-->
+        <span>
+          <a target="_blank" href="/rss"><img src="/media/icons/rss.png" alt="Subscribe to Feed"/></a>
+        </span>
+        <span>
+          <a target="_blank" href="http://twitter.com/nuxeoorg"><img src="/media/icons/twitter.png" alt="Follow us on nuxeoorg"/></a>
+        </span>
+        <span>
+          <a target="_blank" href="http://www.linkedin.com/groupsDirectory?itemaction=mclk&amp;anetid=43314&amp;impid=&amp;pgkey=anet_search_results&amp;actpref=anetsrch_name&amp;trk=anetsrch_name&amp;goback=%2Egdr_1288215250735_1"><img src="/media/icons/linkedin.png" alt="Nuxeo LinkedIn"/></a>
+        </span>
       </div>
     </div>
 
@@ -165,6 +163,24 @@
               <span class="cmf"> • </span>CMF</a> - Case
             Management Framework
           </li>
+        </ul>
+        <ul class="or">
+          <li>
+            Or learn how to <a href="https://doc.nuxeo.com/display/KB/Configuring+Nuxeo+Debian+or+Ubuntu+repositories">install Nuxeo DM on Debian/Ubuntu</a>
+            <!--or how to build the platform <a href="">from the sources</a> -->
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="solutions">
+      <h3>Nuxeo solutions and services</h3>
+
+      <div class="list">
+        <ul>
+          <li>
+             Discover <a href="http://www.nuxeo.com/en/products/studio" alt="Discover Nuxeo Studio">Nuxeo Studio</a>, online application for configuration and customization of your Nuxeo platform</a>
+          </li>
           <li>
             Explore the <a href="https://connect.nuxeo.com/nuxeo/site/marketplace/">nuxeo<span
                   class="marketplace"> • </span><span>Market</span>place</a>
@@ -172,8 +188,10 @@
             to extend your Nuxeo platform or application!
           </li>
           <li>
-            Or learn how to <a href="https://doc.nuxeo.com/display/KB/Configuring+Nuxeo+Debian+or+Ubuntu+repositories">install Nuxeo DM on Debian/Ubuntu</a>,
-            <!--or how to build the platform <a href="">from the sources</a> -->
+              Try <a href="https://connect.nuxeo.com/nuxeo/site/connect/trial/form">Nuxeo Studio and Marketplace</a>
+          </li>
+          <li>
+              Visit <a href="http://www.nuxeo.com/" alt="Nuxeo's corporate website">www.nuxeo.com</a> for more information about Nuxeo's solutions and services or <a href="http://www.nuxeo.com/en/about/contact" alt="Contact Nuxeo">contact Nuxeo</a>
           </li>
         </ul>
       </div>

@@ -111,7 +111,7 @@ h5, h6 {
 
 .events .event {
   border-top: 1px solid #dedede;
-  padding: 7px 0 0
+  padding: 7px 2px
 }
 
 .events .event:hover {
@@ -144,6 +144,8 @@ h5, h6 {
   text-align: right
 }
 
+.clear { clear:both }
+
 /* /events */
 
 .right {
@@ -170,17 +172,22 @@ h5, h6 {
 
 .right .documentation ul li {
   background: url("/media/icons/bullet_go.png") 0 3px no-repeat;
-  padding: 2px 0 2px 20px;
-}
-
-.right .community ul li {
-  background: url("/media/icons/bullet_wrench.png") 0 3px no-repeat;
-  padding: 2px 0 2px 20px;
+  padding: 2px 0 2px 20px
 }
 
 .right .downloads ul li {
   background: url("/media/icons/bullet_disk.png") 0 3px no-repeat;
-  padding: 2px 0 2px 20px;
+  padding: 2px 0 2px 20px
+}
+
+.right .downloads ul.or li {
+  background: url("/media/icons/bullet_go.png") 0 10px no-repeat;
+  padding-top: 10px
+}
+
+.right .solutions ul li, .right .community ul li {
+  background: url("/media/icons/bullet.png") 0 3px no-repeat;
+  padding: 2px 0 2px 20px
 }
 
 .right .downloads li a {
@@ -217,7 +224,11 @@ h5, h6 {
 
 .right .subscribe img {
   margin-right: 5px;
-  vertical-align: middle;
+  vertical-align: middle
+}
+
+.right .subscribe h3 {
+  border-bottom: 3px solid #fff696
 }
 
 /* JQuery tweet styles*/
